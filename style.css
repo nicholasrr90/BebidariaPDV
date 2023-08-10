@@ -1,0 +1,103 @@
+body {
+    background: #EEE;
+    color: #000;
+    font-size: 11px;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#tudo {
+    background: #FFF;
+    border: #000 1px solid;
+    width: 750px;
+    margin: auto;
+    padding: 0px;
+}
+
+
+#cabecalho {
+    background: #000000;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+#menu {
+    background: #000;
+    height: 25px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    
+}
+
+
+#menu ul li {
+    display: inline-block;
+    
+}
+
+
+#menu ul li a {
+    background: #e78b12;
+    color: #000000;
+    border: 1px #000000 solid;
+    border-bottom: 1px #000 solid;
+    font-weight: bold;
+    float: left;
+    padding: 5px 7px;
+    margin: 2px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+#menu ul li a:hover {
+    background: #FFF;
+    color: #F00;
+    border: #F00 1px solid;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+
+#conteudo {
+    clear: both;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    height: 500px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+}
+
+
+#rodape {
+    clear: both;
+    background: #000;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    padding-top: 20px;
+    padding-bottom: 0;
+}

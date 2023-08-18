@@ -1,34 +1,267 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-  <title> Menu em abas em CSS num layout tableless </title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Bebidaria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <div id="tudo">
-    <div id="cabecalho">
-      <img src="./Logo.png" alt="Logo">
-    </div>
-    <div id="menu">
-      <ul>
-        <li><a href="Arquivo.html">Arquivo</a></li>
-        <li><a href="Cadastro.html">Cadastro</a></li>
-        <li><a href="Estoque.html">Estoque</a></li>
-        <li><a href="Relatorios.html">Relatórios</a></li>
-        <li><a href="Vendas.html">Vendas</a></li>
-      </ul>
-    </div>
-    <div id="conteudo">
-      <h1>CONTEUDO DO<br>MENU</h1>
-      <p>Sistema PDV em desenvolvimento</a></p>
 
-    </div>
-    <div id="rodape">
-      <p>Siga no Instagram @bebidariaLondrina</p>
-    </div>
+
+  <div class="top-container">
+    <img src="./logo.png" alt="">
+    <span>Logout</span>
   </div>
+
+  <div class="containermaster">
+    <nav class="navtop-sidebar">
+
+      <div class="navtop-container">
+
+        <div class="navtop-user">
+          <img src="./lagunitas.jpg" alt="">
+          <span>Olá, <strong>Bebidaria Londrina</strong></span>
+
+
+        </div>
+
+        <div class="navtop-icons">
+          <i class="fa fa-rss"></i>
+          <i class="fa fa-user"></i>
+          <i class="fa fa-cog"></i>
+        </div>
+      </div>
+      <hr>
+
+      <div class="dashboard-container">
+        <ul class="dashboard-itens">
+          <li>
+            <i class="fa fa-eye fa-1x"></i>
+            Dashboard
+          </li>
+          <li>
+            <i class="fa fa-users fa-1x"></i>
+            Clientes
+          </li>
+          <li>
+            <i class="fa fa-truck fa-1x"></i>
+            Fornecedores
+          </li>
+          <li>
+            <i class="fa fa-shopping-basket fa-1x"></i>
+            Estoque
+          </li>
+          <li>
+            <i class="fa fa-money fa-1x"></i>
+            Financeiro
+          </li>
+          <li>
+            <i class="fa fa-diamond fa-1x"></i>
+            Vendas
+          </li>
+          <li>
+            <i class="fa fa-binoculars fa-1x"></i>
+            Relatórios
+          </li>
+          <li>
+            <i class="fa fa-cog fa-1x"></i>
+            Configurações
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <!-- <header>
+    <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+  </header> -->
+
+    <div class="todos">
+      <div class="card1">
+        <div class="card-icone"> 
+        <i class="fa fa-money fa-4x"></i>
+        <h5>R$1200,00</h5>
+      </div>
+      <div class="card-titulo">
+        <h6>Vendas de hoje</h6>
+    </div>
+    </div>
+    <div class="card2">
+      <div class="card-icone"> 
+      <i class="fa fa-shopping-basket fa-4x"></i>
+      <h5>517</h5>
+    </div>
+    <div class="card-titulo">
+      <h6>Produtos</h6>
+  </div>
+  </div>
+
+  <div class="card3">
+    <div class="card-icone"> 
+    <i class="fa fa-group fa-4x"></i>
+    <h5>59</h5>
+  </div>
+  <div class="card-titulo">
+    <h6>Clientes</h6>
+</div>
+</div>
+
+<div class="card4">
+  <div class="card-icone"> 
+  <i class="fa fa-bank fa-4x"></i>
+  <h5>R$5014,54</h5>
+</div>
+<div class="card-titulo">
+  <h6>Contas à vencer</h6>
+</div>
+</div>
+
+<div class="card5">
+  <div class="card-icone"> 
+  <i class="fa fa-bank fa-4x"></i>
+  <h5>R$23054,97</h5>
+</div>
+<div class="card-titulo">
+  <h6>Faturamento do mês</h6>
+</div>
+</div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- <div class="w3-quarter">
+        <div class="w3-container w3-blue w3-padding-16">
+          <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
+          <div class="w3-right">
+            <h3>99</h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>Views</h4>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-container w3-teal w3-padding-16">
+          <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
+          <div class="w3-right">
+            <h3>23</h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>Shares</h4>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-container w3-orange w3-text-white w3-padding-16">
+          <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+          <div class="w3-right">
+            <h3>50</h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>Users</h4>
+        </div>
+      </div>
+    </div>  -->
+
+
 
 </body>
 
 </html>
+<!-- 
+   Sidebar/menu 
+
+
+
+   Overlay effect when opening sidebar on small screens -->
+<!-- <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+    title="close side menu" id="myOverlay"></div>
+
+
+    !PAGE CONTENT! 
+ 
+
+<!-- <div class="w3-panel">
+      <div class="w3-row-padding" style="margin:0 -16px">
+
+        <div class="w3-twothird">
+          <h5>Feeds</h5>
+          <table class="w3-table w3-striped w3-white">
+            <tr>
+              <td><i class="fa fa-user w3-text-blue w3-large"></i></td>
+              <td>New record, over 90 views.</td>
+              <td><i>10 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-bell w3-text-red w3-large"></i></td>
+              <td>Database error.</td>
+              <td><i>15 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-users w3-text-yellow w3-large"></i></td>
+              <td>New record, over 40 users.</td>
+              <td><i>17 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-comment w3-text-red w3-large"></i></td>
+              <td>New comments.</td>
+              <td><i>25 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-bookmark w3-text-blue w3-large"></i></td>
+              <td>Check transactions.</td>
+              <td><i>28 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-laptop w3-text-red w3-large"></i></td>
+              <td>CPU overload.</td>
+              <td><i>35 mins</i></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-share-alt w3-text-green w3-large"></i></td>
+              <td>New shares.</td>
+              <td><i>39 mins</i></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  </div> -->
+
+<!-- <script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script> -->

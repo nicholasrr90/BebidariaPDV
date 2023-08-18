@@ -1,0 +1,37 @@
+<script>
+
+    $('#btnCad').click(function () {
+      $("#cadastro").show();
+      $("#produtos").hide();
+      $("#titulo").hide();
+
+    })
+
+    $('#btnProd').click(function () {
+      $("#cadastro").hide();
+      $("#produtos").show();
+      $("#titulo").hide();
+    })
+
+    $('#btnIndex').click(function () {
+      $("#cadastro").hide();
+      $("#produtos").hide();
+      $("#titulo").show();
+    })
+
+    </script>
+
+
+
+<fieldset id="produtos">
+    <legend>Produtos</legend>
+    <form>
+      <select>
+        <option value="Produto">STELLA</option>
+        <option value="Produto">CORONA</option>
+        <option value="">AMSTEL</option>
+        <option value="">SPATEN</option>
+      </select>
+      <button id="verProd">Ver Produto</button>
+    </form>
+  </fieldset>

@@ -1,103 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
 body {
-    background: #EEE;
-    color: #000;
-    font-size: 11px;
-    font-family: Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-
-#tudo {
-    background: #FFF;
-    border: #000 1px solid;
-    width: 750px;
-    margin: auto;
+    margin: 0px;
     padding: 0px;
-}
-
-
-#cabecalho {
-    background: #000000;
-    font-size: 18px;
-    text-align: center;
-    padding: 0px;
-}
-
-
-#menu {
-    background: #000;
-    height: 25px;
-    margin: 0;
-    padding: 10px;
+    gap: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(233, 232, 232, 0.712);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+}
+
+.containermaster {
+    display: flex;
+    width: 98, 5vw;
+}
+
+.top-container {
+    display: block;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 20px;
+    height: fit-content;
+    /* width: 100vw; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+}
+
+.top-container img {
+    margin: 0px;
+    height: 50px;
+    width: 150px;
+}
+
+.navtop-sidebar {
+    margin: 0px;
+    width: 200px;
+    height: 94vh;
+    background-color: whitesmoke;
+    display: block;
+
+}
+
+.navtop-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navtop-user {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;   
+
+}
+
+.navtop-user>img {
+    width: 125px;
+    padding: 10px;
 }
 
 
-#menu ul {
-    margin: 0;
-    padding: 0;
-    margin-left: 0px;
+.navtop-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.dashboard-container {
+    padding-top: 1px;
+    padding-left: 8px;
+
+}
+
+.dashboard-itens {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.dashboard-itens>li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 12px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+hr {
+    border-color: rgba(233, 232, 232, 0.322);
+}
+
+
+.todos {
+    display: flex;
+    color: whitesmoke;
+
+}
+
+.todos h5,
+h6 {
+    /* font-size: 20px; */
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 106px;
+    background-color: rgba(32, 88, 39, 0.89);
+    box-sizing: border-box;    
+    margin: 50px;
+}
+
+header{
+display: flex;
+width: fit-content;
     
 }
 
-
-#menu ul li {
-    display: inline-block;
-    
-}
-
-
-#menu ul li a {
-    background: #e78b12;
-    color: #000000;
-    border: 1px #000000 solid;
-    border-bottom: 1px #000 solid;
+.card-icone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 230px;
+    height: 53px;
     font-weight: bold;
-    float: left;
-    padding: 5px 7px;
-    margin: 2px;
-    text-decoration: none;
-    border-radius: 10px 10px 10px 10px;
+    margin: 4px;
+    padding-top: 2px;
 }
 
 
-#menu ul li a:hover {
-    background: #FFF;
-    color: #F00;
-    border: #F00 1px solid;
-    border-bottom: none;
-    text-decoration: none;
-}
 
-
-#conteudo {
-    clear: both;
-    font-size: 12px;
-    padding: 5px;
-    text-align: center;
-    height: 500px;
+.card-titulo {
+    width: 230px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
-
 }
 
-
-#rodape {
-    clear: both;
-    background: #000;
-    color: #FFF;
-    padding: 5px;
-    text-align: center;
+.card2{
+    background-color:rgba(206, 116, 52, 0.781)
 }
 
-img{
-    padding-top: 20px;
-    padding-bottom: 0;
+.card3{
+    background-color:rgba(140, 148, 31, 0.781)
+}
+
+.card4{
+    background-color:rgba(180, 56, 56, 0.781)
+}
+
+.card5{
+    background-color:rgba(69, 59, 155, 0.781)
 }
